@@ -1,0 +1,127 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #66002C;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #DA77A2;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-upper {
+	font-size: 60px;
+}
+
+.logo-upper {
+	margin-top: 20px;
+}
+
+/* Typography
+================================= */
+
+p { 
+	line-height: 1.7;
+	font-size: 1.1em;
+}
+
+.modal-text {
+	font-size: 1.1em;
+	padding-top: 10px;	
+}
+
+/* Layout
+================================= */
+
+.panel {
+	background-image:url(../images/form-panel-bg.png);
+	background-repeat: repeat-x;
+	border-bottom: solid 1px #eee;
+	padding: 42px;
+	margin-top: 30px;
+	margin-bottom: 70px;	
+}
+
+/* Buttons
+================================= */
+
+.btn-custom {
+	background-color: #B23290;
+	color: #fff;
+	margin-right: 15px;
+	padding: 12px 22px;
+}
+
+.btn-custom:hover {
+	background-color: #D7D7D5;
+	color: #B23290;
+}
+
+.btn-custom:focus {
+	background-color: #D7D7D5;
+	color: #B23290;
+}
+
+.btn-custom:visited {
+	background-color: #66002C;
+	color: #B23290;
+}
+
+
+/* Links
+================================= */
+
+.modal-link {
+	color: #66002C;
+}
+
+.modal-link:hover {
+	color: #B23290;
+	text-decoration: none;
+}
+
+.modal-link:visited {
+	color: #B23290;
+	text-decoration: none;
+}
+
+.modal-link:focus {
+	color: #B23290;
+	text-decoration: none;
+}
+
+
+
+/* Media Queries
+================================= */
+
+@media (max-width: 991px) {
+  body {
+	margin-top: 10px;
+  }
+	
+  p,
+  h4,
+  .modal-text {
+	font-size: 1.4em;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+		margin-top: 10px;
+  }
+	
+  p,
+  h4,
+  .modal-text {
+	font-size: 1.4em;
+  }
+}
+
+
+
+
