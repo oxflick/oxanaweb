@@ -44,21 +44,21 @@
             <div class="row text-center">
                  <div class="col-xs-12 col-sm-6 col-md-4"> 
                     <a class="modal-link" href="#" data-toggle="modal" data-target="#project1">
-                       <img class="img-responsive img-thumbnail" src="images/funkyflick_modal.png" alt="Funkyflick">
+                       <img class="img-responsive" src="images/featured1.png" alt="Funkyflick">
                        <h3 class="text-uppercase">Funkyflick</h3>
                        <p> http://funkyflick.com </p>
                     </a>
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-4">
                     <a class="modal-link" href="#" data-toggle="modal" data-target="#project2">
-                       <img class="img-responsive img-thumbnail" src="images/navyart_modal.png" alt="Navyart">
+                       <img class="img-responsive" src="images/featured2.png" alt="Navyart">
                        <h3 class="text-uppercase">Navyart</h3>
                        <p> http://navyart.com </p>
                     </a>
                  </div> 
                  <div class="col-xs-12 col-sm-6 col-md-4">
                     <a class="modal-link" href="#" data-toggle="modal" data-target="#project3">
-                       <img class="img-responsive img-thumbnail" src="images/oxanaweb_modal.png" alt="Oxana Web">
+                       <img class="img-responsive" src="images/featured3.png" alt="Oxana Web">
                        <h3 class="text-uppercase">Oxana Web</h3>
                        <p> http://oxanaweb.com </p>
                     </a>
