@@ -1,11 +1,17 @@
 body {
 	font-family: 'Lato', sans-serif;
-	color: #66002C;
+	color: #66002c;
 	font-weight: 300;
+	background-image: url(../images/pink_rice.png);
+}
+
+.container {
+	background-color: #fff;
 }
 
 .text-muted {
-	color: #DA77A2;
+	color: #da77a2;
+	font-family: 'Rancho', cursive;
 }
 
 .text-thin {
@@ -13,11 +19,53 @@ body {
 }
 
 .title-upper {
-	font-size: 60px;
+	font-size: 56px;	
+}
+
+h1 {
+	color: #da77a2;
+}
+
+h4 {
+	font-size: 32px;
+	font-family: 'Rancho', cursive;
+	margin-top: -15px;
 }
 
 .logo-upper {
 	margin-top: 20px;
+}
+
+.mainimage {
+	width: 120%;
+	margin-bottom: 10px;
+}
+
+.welcometext h1 {
+	position: absolute;
+	top: 11%;
+	left: 20%;
+	color: #dfb47d;
+	font-size: 38px;
+    line-height: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.welcometext p {
+	position: absolute;
+	top: 35%;
+	left: 10%;
+	right: 10%;
+	color: #fff;
+	font-size: 1.5em;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.introduction {
+	display: none;
 }
 
 /* Typography
@@ -33,23 +81,34 @@ p {
 	padding-top: 10px;	
 }
 
+hr {
+	color: #b2762a;
+}
+
+.introduction h1 {
+	font-family: 'Rancho', cursive;
+	font-size: 2.2em;
+}
+
+.introduction p {
+	font-size: 1.6em;
+}
+
 /* Layout
 ================================= */
 
 .panel {
-	background-image:url(../images/form-panel-bg.png);
-	background-repeat: repeat-x;
 	border-bottom: solid 1px #eee;
-	padding: 42px;
-	margin-top: 30px;
-	margin-bottom: 70px;	
+	padding: 5px 20px 20px 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;	
 }
 
 /* Buttons
 ================================= */
 
 .btn-custom {
-	background-color: #B23290;
+	background-color: #da77a2;
 	color: #fff;
 	margin-right: 15px;
 	padding: 12px 22px;
@@ -61,13 +120,13 @@ p {
 }
 
 .btn-custom:focus {
-	background-color: #D7D7D5;
-	color: #B23290;
+	background-color: #d7d7d5;
+	color: #b23290;
 }
 
 .btn-custom:visited {
-	background-color: #66002C;
-	color: #B23290;
+	background-color: #66002c;
+	color: #b23290;
 }
 
 
@@ -75,56 +134,81 @@ p {
 ================================= */
 
 .modal-link {
-	color: #66002C;
+	color: #66002c;
 }
 
 .modal-link:hover {
-	color: #B23290;
+	color: #b23290;
 	text-decoration: none;
 }
 
 .modal-link:visited {
-	color: #B23290;
+	color: #b23290;
 	text-decoration: none;
 }
 
 .modal-link:focus {
-	color: #B23290;
+	color: #b23290;
 	text-decoration: none;
 }
 
 
-
 /* Media Queries
 ================================= */
-
-@media (max-width: 991px) {
-  body {
-	margin-top: 10px;
-  }
-	
-  p,
-  h4,
-  .modal-text {
-	font-size: 1.4em;
-  }
-  img {
-  width: 100%;
-  }
+@media (min-width: 981px) {
+	.container {
+		width: 980px;
+	}
 }
 
-@media (max-width: 767px) {
-  body {
+@media (max-width: 768px) {
+	body {
 		margin-top: 10px;
-  }
+	}
 	
-  p,
-  h4,
-  .modal-text {
-	font-size: 1.4em;
-  }
+	p,
+	.modal-text {
+		font-size: 1.4em;
+	}
+
+	h4 {
+		font-size: 32px;
+	}
+
+	.logo-upper {
+		width: 80%;
+	}
+
+	.welcometext {
+		display: none;
+	}
+
+	.introduction {
+		display: block;
+	}
 }
 
 
+@media (max-width: 499px) {
+	.title-upper {
+		font-size: 40px;
+	}
 
+	h4 {
+		font-size: 23px;
+	}
+
+	.logo-upper {
+		width: 110%;
+	}
+
+	.welcometext {
+		display: none;
+	}
+
+	.introduction {
+		display: block;
+	}
+
+}
 
